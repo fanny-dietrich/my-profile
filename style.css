@@ -1,0 +1,114 @@
+body {
+	background-color:#F9E9EC;
+	color: #226CE0;
+    font-family: Times;
+    text-align: center;
+
+
+}
+h1 {
+	color: #EF476F;
+    letter-spacing: 5px;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-block: 70px;
+  
+  font-family: "Lora", serif;
+  font-optical-sizing: 700;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+}
+
+
+h2{
+	color:#EF476F;
+	font-family: "Lora", serif;
+  	font-optical-sizing: 400;
+  	font-weight: 600;
+  	font-style: normal;
+}
+
+a{
+	font-family:"Times", sans-serif;
+	text-decoration: none;
+	color: #EF476F;
+	font-weight: 600;
+	font-size: 25px;
+	text-align: center;
+}
+
+ a:hover {
+ 	color: darkgreen;
+}
+
+
+div {
+	background: floralwhite;
+	border-radius: 20px;
+	box-shadow: 2px 2px 3px red;
+
+	margin: 50px;
+	padding: 20px;
+	line-height: 20px; 	 
+}
+
+
+
+#btn_pink{
+	border: 2px solid hotpink;
+	background: lightpink;	
+	margin: 0 200 ;
+	border-radius: 5px;
+	box-shadow: 2px 2px 3px red;
+}
+
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+
+.container{
+	width: 700xp;
+	margin: 40px auto;
+
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		backgroun-color: darkgreen;
+
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 40xp;
+	box-shadow:2px 2px 3px red ;
+	margin: 700xp;
+	text-align: center;
+}
+
+
+#introduction p{
+	margin-bottom: 40px;
+
+}
+
+
+
+
+
+
+
+
